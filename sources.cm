@@ -1,0 +1,11 @@
+Library
+  structure KeisankiLexer
+  functor KeisankiParseFn
+  structure KeisankiTest
+is
+  $/basis.cm
+  $/smlnj-lib.cm
+  $/ml-lpt-lib.cm
+  keisanki.grm : ml-antlr
+  keisanki.lex : ml-ulex
+  keisanki_test.sml
